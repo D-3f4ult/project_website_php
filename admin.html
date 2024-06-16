@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <style>
+        /* Navbar container */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Links inside the navbar */
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Change background color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="admin.html" class="active">Admin Panel</a>
+        <a href="view_products.php">View Products</a>
+        <a href="add_product.php">Add New Product</a>
+        <a href="manage_users.php">Manage Users</a> <!-- New link for managing users -->
+        <a href="logout.php">log out</a>
+    </div>
+
+    <div class="container">
+        <h2>Welcome to the Admin Page</h2>
+        <img src="images/png-clipart-directadmin-brand-organization-logo-control-panel-integration-blue-angle.png" alt="Admin Image" class="admin-image">
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+
+</html>
